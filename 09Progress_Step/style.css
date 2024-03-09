@@ -1,0 +1,51 @@
+#progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 80%;
+  }
+  
+  .step {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 16px;
+  }
+
+  .active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: #333;
+  }
+  
+  #button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
